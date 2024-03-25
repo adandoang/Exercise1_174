@@ -5,7 +5,7 @@ function showNotification() {
             if (permission === 'granted') {
                 // Tampilkan notifikasi
                 var notification = new Notification('Notifikasi', {
-                    body: 'Ini adalah contoh notifikasi.',
+                    body: 'KERJA BAGUS.',
                     icon: 'solat.jpeg'
                 });
             }
