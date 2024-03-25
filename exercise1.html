@@ -30,13 +30,13 @@
             text-align: center;
         }
 
-        .textbox {
-            width: 500px;
-            height: 300px; /* Lebar textbox 100% dari parentnya */
-            padding: 10px; /* Padding untuk memberi jarak antara teks dengan batas textbox */
-            box-sizing: border-box;
-            border: solid;
-            margin-bottom: 20px; /* Menambahkan jarak bawah antara textbox dan gambar */
+        .box-kosong {
+            border: 2px solid; /* Tambahkan bingkai dashed 2px berwarna hitam */
+            margin: 20px auto; /* Menengahkan box kosong secara horizontal */
+            padding: 20px; /* Padding untuk isi box */
+            width: 500px; /* Lebar box */
+            height: 400px; /* Tinggi box */
+            background-color: white;
         }
 
         .notif-button {
@@ -57,10 +57,30 @@
         <h1 class="judul">
             Title
         </h1>
-        <div class="box-kosong">
-            <input type="text" class="textbox" placeholder="Sholat Boss">
-        </div>
-        <img src="solat.jpeg" id="gambar" style="margin-top: 20px;"> <!-- Menambahkan jarak atas pada gambar -->
+    <div class="box-kosong">
+        <h1>
+            Rukun Islam
+        </h1>
+        <ol>
+            <li>Mengucapkan dua kalimah Syahadat.</li>
+            <li>Mendirikan Shalat.</li>
+            <li>Membayar Zakat.</li>
+            <li>Menjalankan Shaum/Puasa.</li>
+            <li>Mengerjakan Haji.</li>
+        </ol>
+        <h1>
+            Jadi Yang Penting?
+        </h1>
+        <ul>
+            <li>Sholat</li>
+            <li>Sholat</li>
+            <li>Sholat</li>
+        </ul>
+        <p>
+            Sholat adalah kewajiban bagi setiap muslim. Ada beberapa hikmah sholat mulai dari meningkatkan ketakwaan kepada Allah SWT hingga mendapatkan ridha-Nya. Artinya: "Dan laksanakanlah sholat, tunaikanlah zakat, dan rukuklah beserta orang yang rukuk."
+        </p>
+    </div>
+        <img src="sholat.jpeg" id="gambar" style="margin-top: 20px;"> <!-- Menambahkan jarak atas pada gambar -->
         <br>
         <button class="notif-button" id="tombol">SHOLAT BOSS</button> <!-- Tombol notifikasi -->
     </div>
